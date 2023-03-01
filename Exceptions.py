@@ -11,6 +11,7 @@ for i in range(0 , n):
         if int(char_2) == 0:
             print("Error Code:","integer division or modulo by zero")
             continue
+            
         div = int(char_1)/int(char_2)
         print(int(div))
     
