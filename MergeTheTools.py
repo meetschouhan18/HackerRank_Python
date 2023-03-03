@@ -5,6 +5,7 @@ a = 0
 line = line + " "
 b = str()
 words = []
+
 for i in line:
     a = a + 1
     if c != n:
@@ -14,9 +15,12 @@ for i in line:
         c = 1
         words.append(b)
         b = i
+
 p = len(line) - a
+
 if n > p:
     words.append(b)
+
 if (len(line) - 1)%n == 0:
     words.remove(" ")
     print(words)
@@ -25,6 +29,7 @@ else:
     last_ele = last_ele[:len(last_ele)-1]
     words.append(last_ele)
     print(words)
+
 b = str()
 final = []
 for i in words:
@@ -33,4 +38,5 @@ for i in words:
             b = b + j
     final.append(b)
     b = str()
-print("\n".join(final))    
+
+print("\n".join(final))
