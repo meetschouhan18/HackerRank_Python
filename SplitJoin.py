@@ -4,6 +4,7 @@ def split_and_join(line):
     # write your code here
     r = line.split()
     re = "-".join(r)
+    
     return re
 
 if __name__ == '__main__':
