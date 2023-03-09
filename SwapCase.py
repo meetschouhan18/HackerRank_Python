@@ -14,6 +14,8 @@ def swap_cases(sentence):
         b.append("".join(a))
         a.clear()    
     return " ".join(b)
+
+
 if __name__ == '__main__':
     sentence = input()
     result = swap_cases(sentence)
