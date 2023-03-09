@@ -8,6 +8,7 @@ alpha1 = 0
 digit1 = 0
 lower1 = 0
 upper1 = 0
+
 for i in s:
     if i.isalnum():
         alnum1 = 1
@@ -19,6 +20,7 @@ for i in s:
         lower1 = 1
     if i.isupper():
         upper1 = 1
+
 if alnum1 == 1:
     print("True")
 else:
