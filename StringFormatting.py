@@ -14,20 +14,23 @@ def print_formatted(number):
     indent3 = w + 1
     indent4 = w + 1
     for i in range(1 , number+1):
-#Decimal
+        #Decimal
         result1 = i
-#Octal
+        
+        #Octal
         l = []
         m = i
         while m > 7:
             r = m%8
             m = m//8
             l.append(str(r))
+        
         l.reverse()
         s = "".join(l)
         result2 = str(m) + str(s)
         x = len(result2)
-#Hexa
+        
+        #Hexa
         l = []
         m = i
         n = i
@@ -65,7 +68,8 @@ def print_formatted(number):
                 s = "".join(l)
                 result3 = str(m) + str(s)
                 y = len(result3)
-#Binary
+        
+        #Binary
         l = []
         m = i
         while m > 1:
@@ -102,6 +106,8 @@ if __name__ == '__main__':
     n = int(input())
     print_formatted(n)
 
+    
+    
 #OR
 
 
