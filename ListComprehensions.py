@@ -5,6 +5,7 @@ n = int(input())
 l = []
 li = []
 a = 0
+
 for i in range(0 , x+1):
     for j in range(0 , y+1):
         for k in range(0 , z+1):
@@ -18,4 +19,5 @@ for i in range(0 , x+1):
             if l != []:
                 li.append(l)
             l = []
+
 print(li)
