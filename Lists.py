@@ -2,6 +2,7 @@
 
 list = []
 n = int(input("Enter Number of operations to perform :- "))
+
 for i in range(0, n):
     o = input("")
     line = o.split()
