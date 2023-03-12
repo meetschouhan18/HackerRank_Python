@@ -12,6 +12,7 @@ def reverse_words_order_and_swap_cases(sentence):
             else:
                 j = j.upper()
             a.append(j)
+            
         b.append("".join(a))
         a.clear()    
     return " ".join(b)
