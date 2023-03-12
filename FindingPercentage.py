@@ -4,6 +4,7 @@
 
 e = {}
 n = int(input("Enter N :- "))
+
 for i in range (0 , n):
     a = input("Enter name :- ")
     b = a.find(' ')
@@ -17,5 +18,6 @@ for i in range (0 , n):
     f = '{:.2f}'.format(f)
     q = a[:b]
     e[q] = f
+    
 p = input('Enter name :- ')
 print(e[p])
