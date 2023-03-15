@@ -2,14 +2,17 @@ import numpy as np
 n = int(input())
 lst_a = []
 lst_b = []
+
 for i in range(0 ,n):
    line = [*map(int , input().split())]
    for j in line:
       lst_a.append(j)
+
 for i in range(0 ,n):
    line = [*map(int , input().split())]
    for j in line:
       lst_b.append(j)
+
 a = np.array(lst_a)
 a.resize(n,n)
 b = np.array(lst_b)
