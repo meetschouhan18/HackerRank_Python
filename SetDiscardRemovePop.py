@@ -4,9 +4,12 @@ second_set = set()
 n = int(input())
 first_line = input()
 first_num = first_line.split()
+
 for i in first_num:
     first_set.add(int(i))
+    
 m = int(input())
+
 for i in range(0 , m):
     operation = input()
     op = operation.split()
@@ -24,6 +27,7 @@ for i in range(0 , m):
         first_set.remove(int(op[1]))
     if op[0] == "discard":
         first_set.discard(int(op[1]))
+        
 if b == 0:
     c = str()
     if first_set == set():
